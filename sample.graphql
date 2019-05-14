@@ -1,0 +1,17 @@
+mutation M {
+  createUser(
+    data: {
+      name: "Divyendu"
+      address: {
+        create: {
+          street: "Torstrasse"
+          city: "Berlin"
+          pin: "12345"
+          country: "Germany"
+        }
+      }
+    }
+  ){
+    id
+  }
+}

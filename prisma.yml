@@ -1,0 +1,2 @@
+endpoint: http://localhost:4466/migration/dev
+datamodel: datamodel.prisma

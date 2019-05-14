@@ -1,0 +1,13 @@
+type User {
+    id: ID! @id
+    name: String!
+    address: Address! @relation(link: INLINE)
+}
+
+type Address {
+    id: ID! @id
+    street: String!
+    city: String!
+    pin: String!
+    country: String!
+}
